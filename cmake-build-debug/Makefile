@@ -126,32 +126,59 @@ data_structure\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\build
 .PHONY : data_structure\fast
 
-link_list.obj: link_list.cpp.obj
+link_list\link_list.obj: link_list\link_list.cpp.obj
 
-.PHONY : link_list.obj
+.PHONY : link_list\link_list.obj
 
 # target to build an object file
-link_list.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\link_list.cpp.obj
-.PHONY : link_list.cpp.obj
+link_list\link_list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\link_list\link_list.cpp.obj
+.PHONY : link_list\link_list.cpp.obj
 
-link_list.i: link_list.cpp.i
+link_list\link_list.i: link_list\link_list.cpp.i
 
-.PHONY : link_list.i
+.PHONY : link_list\link_list.i
 
 # target to preprocess a source file
-link_list.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\link_list.cpp.i
-.PHONY : link_list.cpp.i
+link_list\link_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\link_list\link_list.cpp.i
+.PHONY : link_list\link_list.cpp.i
 
-link_list.s: link_list.cpp.s
+link_list\link_list.s: link_list\link_list.cpp.s
 
-.PHONY : link_list.s
+.PHONY : link_list\link_list.s
 
 # target to generate assembly for a file
-link_list.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\link_list.cpp.s
-.PHONY : link_list.cpp.s
+link_list\link_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\link_list\link_list.cpp.s
+.PHONY : link_list\link_list.cpp.s
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +189,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... data_structure
-	@echo ... link_list.obj
-	@echo ... link_list.i
-	@echo ... link_list.s
+	@echo ... link_list/link_list.obj
+	@echo ... link_list/link_list.i
+	@echo ... link_list/link_list.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
