@@ -4,8 +4,6 @@
 
 #ifndef DATA_STRUCTURE_LINK_LIST_H
 #define DATA_STRUCTURE_LINK_LIST_H
-
-const unsigned int NUM = 10; // 链表元素的个数
 const unsigned int MAX_UINT = 10; //链表元素的最大值
 
 struct link_list{
@@ -15,16 +13,27 @@ struct link_list{
 
 // 随机生成一个链表
 link_list* gene_link_list(int num);
-// 展示当前链表元素
-void show(link_list* head);
+
+// 在第k个位置插入一个元素
+void insert(link_list* head, int val, int k);
+
+// 删除第k个位置的元素
+void remove(link_list* head, int k);
+
 // 查询倒数第k个元素的值
 int search_reverse_k_loc(link_list* head, int k);
 
-// TODO:(chenyanzhi): 需要实现的功能
-// 在第k个位置插入一个元素
-int insert(int val, int k);
-// 删除第k个位置的元素
-int remove(int k);
+// 查找第k个位置的节点
+link_list* get_node(link_list* head, int k);
+
+// 校验输入的值是否合法(大于1,小于链表长度)
+void is_valid_k(link_list* head, int k);
+
+// 展示当前链表元素
+void show(link_list* head);
+
+// 获取链表长度
+int get_length(link_list* head);
 
 
 #endif //DATA_STRUCTURE_LINK_LIST_H

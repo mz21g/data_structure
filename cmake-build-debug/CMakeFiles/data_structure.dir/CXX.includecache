@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../link_list/link_list.h
+
 C:/Users/yanzhichen/Desktop/data_structure/link_list/link_list.cpp
 link_list.h
 C:/Users/yanzhichen/Desktop/data_structure/link_list/link_list.h
@@ -13,4 +15,10 @@ iostream
 -
 
 C:/Users/yanzhichen/Desktop/data_structure/link_list/link_list.h
+
+C:/Users/yanzhichen/Desktop/data_structure/main.cpp
+link_list/link_list.h
+-
+iostream
+-
 
