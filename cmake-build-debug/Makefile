@@ -180,6 +180,87 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+tree\AVL\avl_tree.obj: tree\AVL\avl_tree.cpp.obj
+
+.PHONY : tree\AVL\avl_tree.obj
+
+# target to build an object file
+tree\AVL\avl_tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\AVL\avl_tree.cpp.obj
+.PHONY : tree\AVL\avl_tree.cpp.obj
+
+tree\AVL\avl_tree.i: tree\AVL\avl_tree.cpp.i
+
+.PHONY : tree\AVL\avl_tree.i
+
+# target to preprocess a source file
+tree\AVL\avl_tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\AVL\avl_tree.cpp.i
+.PHONY : tree\AVL\avl_tree.cpp.i
+
+tree\AVL\avl_tree.s: tree\AVL\avl_tree.cpp.s
+
+.PHONY : tree\AVL\avl_tree.s
+
+# target to generate assembly for a file
+tree\AVL\avl_tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\AVL\avl_tree.cpp.s
+.PHONY : tree\AVL\avl_tree.cpp.s
+
+tree\BST\bst_tree.obj: tree\BST\bst_tree.cpp.obj
+
+.PHONY : tree\BST\bst_tree.obj
+
+# target to build an object file
+tree\BST\bst_tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\BST\bst_tree.cpp.obj
+.PHONY : tree\BST\bst_tree.cpp.obj
+
+tree\BST\bst_tree.i: tree\BST\bst_tree.cpp.i
+
+.PHONY : tree\BST\bst_tree.i
+
+# target to preprocess a source file
+tree\BST\bst_tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\BST\bst_tree.cpp.i
+.PHONY : tree\BST\bst_tree.cpp.i
+
+tree\BST\bst_tree.s: tree\BST\bst_tree.cpp.s
+
+.PHONY : tree\BST\bst_tree.s
+
+# target to generate assembly for a file
+tree\BST\bst_tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\BST\bst_tree.cpp.s
+.PHONY : tree\BST\bst_tree.cpp.s
+
+tree\Red-black_tree\rb_tree.obj: tree\Red-black_tree\rb_tree.cpp.obj
+
+.PHONY : tree\Red-black_tree\rb_tree.obj
+
+# target to build an object file
+tree\Red-black_tree\rb_tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\Red-black_tree\rb_tree.cpp.obj
+.PHONY : tree\Red-black_tree\rb_tree.cpp.obj
+
+tree\Red-black_tree\rb_tree.i: tree\Red-black_tree\rb_tree.cpp.i
+
+.PHONY : tree\Red-black_tree\rb_tree.i
+
+# target to preprocess a source file
+tree\Red-black_tree\rb_tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\Red-black_tree\rb_tree.cpp.i
+.PHONY : tree\Red-black_tree\rb_tree.cpp.i
+
+tree\Red-black_tree\rb_tree.s: tree\Red-black_tree\rb_tree.cpp.s
+
+.PHONY : tree\Red-black_tree\rb_tree.s
+
+# target to generate assembly for a file
+tree\Red-black_tree\rb_tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structure.dir\tree\Red-black_tree\rb_tree.cpp.s
+.PHONY : tree\Red-black_tree\rb_tree.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -195,6 +276,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tree/AVL/avl_tree.obj
+	@echo ... tree/AVL/avl_tree.i
+	@echo ... tree/AVL/avl_tree.s
+	@echo ... tree/BST/bst_tree.obj
+	@echo ... tree/BST/bst_tree.i
+	@echo ... tree/BST/bst_tree.s
+	@echo ... tree/Red-black_tree/rb_tree.obj
+	@echo ... tree/Red-black_tree/rb_tree.i
+	@echo ... tree/Red-black_tree/rb_tree.s
 .PHONY : help
 
 

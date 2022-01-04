@@ -93,6 +93,24 @@
 		<Unit filename="C:/Users/yanzhichen/Desktop/data_structure/main.cpp">
 			<Option target="data_structure"/>
 		</Unit>
+		<Unit filename="C:/Users/yanzhichen/Desktop/data_structure/tree/AVL/avl_tree.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="C:/Users/yanzhichen/Desktop/data_structure/tree/AVL/avl_tree.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="C:/Users/yanzhichen/Desktop/data_structure/tree/BST/bst_tree.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="C:/Users/yanzhichen/Desktop/data_structure/tree/BST/bst_tree.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="C:/Users/yanzhichen/Desktop/data_structure/tree/Red-black_tree/rb_tree.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="C:/Users/yanzhichen/Desktop/data_structure/tree/Red-black_tree/rb_tree.h">
+			<Option target="data_structure"/>
+		</Unit>
 		<Unit filename="C:/Users/yanzhichen/Desktop/data_structure/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
